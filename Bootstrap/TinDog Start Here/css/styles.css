@@ -21,7 +21,7 @@ h1 {
 h3 {
   font-family: "Montserrat";
   font-weight: 900;
-  line-height: 1.5;
+  font-size: 1.5;
 }
 
 p {
@@ -59,15 +59,21 @@ p {
   transform: rotate(25deg);
 }
 
+/* Features Section */
 #features {
+  padding: 7% 15%;
+}
+
+.feature-box {
   text-align: center;
+  padding: 5%;
 }
 
-.features-image {
-  font-size: 80px;
+.icon {
   color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-.features-image:hover {
+.icon:hover {
   color: #ff4c68;
 }
